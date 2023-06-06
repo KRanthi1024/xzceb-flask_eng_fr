@@ -1,3 +1,7 @@
+'''
+Test for the module in translator
+'''
+
 from translator import english_to_french, french_to_english
 import unittest
 

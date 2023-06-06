@@ -1,8 +1,9 @@
-from deep_translator import MyMemoryTranslator
 '''
 This provide the necessary credentials and set up the enviroment
 '''
-
+import json
+import os
+from deep_translator import MyMemoryTranslator
 
 #Translation from english to french
 def english_to_french(english_text):
